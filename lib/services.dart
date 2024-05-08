@@ -1,0 +1,118 @@
+import 'package:get/get.dart';
+
+class languageTranslate extends Translations{
+  @override
+  // TODO: implement keys
+  Map<String, Map<String, String>> get keys =>{
+  "fr_FR":{
+  "name":'Damodar Lohani',
+  "langue":'Francais',
+  "metier":"Ingénieur logiciel Développeur",
+  "titre2":"Expérience",
+  "experience":"5+ années d'expérience en développement de logiciels avec une expertise dans les technologies frontend et backend.",
+
+  "titre3":"Projets",
+  "projets":"A dirigé plusieurs projets de la conception à la livraison, en garantissant un code de haute qualité et des interfaces conviviales.",
+  "About Me":"A propos",
+  "description2":"Plus de 8+ années d'expérience en développement web et 5+ années d'expérience en développement d'applications mobiles",
+  "Skills":"Compétences",
+  "Educ1":"Lycée Mahmoud Magdich, Sfax",
+  "descrip1":"B.Sc. Informatique et technologies de l'information",
+  "Educ2":"Institut International de Technologie Sfax Tunisie : IIT",
+  "descrip2":"Genie Logiciel Informatique Décisionnel, GLID",
+  "Educ3":"Ecole Nationnal d'Electronique et des Télécommunications de Sfax,ENETCOM",
+  "descrip3":"Master Professionnel Ingénieurie des systémes d'informatique et télecommunication, RITEL",
+  "Exp1": "Développeur Full Stack, Société : ABC Technologies",
+  "des1": "Développement et maintenance d'applications web et mobiles, avec une expertise particulière dans les technologies frontend et backend",
+  "Exp2": "Ingénieur logiciel senior, Entreprise : XYZ Solutions",
+  "des2": "Conception et développement de logiciels hautement évolutifs pour les clients de l'entreprise. Encadrement d'une équipe de développeurs juniors et collaboration étroite avec les équipes de gestion de produits.",
+  "Exp3": "Développeur Frontend, Société : Acme Web Services",
+  "des3": "Créer des interfaces utilisateur attrayantes et réactives pour diverses applications Web. Intégration étroite avec les équipes de conception pour garantir une expérience utilisateur optimale.",
+  "Exp4": "Stagiaire développeur, Entreprise : Tech Innovations",
+  "des4": "Apprenez les bases du développement logiciel en participant à des projets réels. Acquérez des compétences pratiques en programmation et en conception de logiciels",
+"projet1":"Application de suivi de fitness",
+"descp1":      "J\'ai conçu et développé une application mobile qui permet aux utilisateurs de suivre leurs séances d\'entraînement, leurs calories brûlées et leurs progrès au fil du temps. L\'application inclut également des fonctionnalités de planification d\'exercices et de rappels.",
+"projet2":'Site web personnel',
+    "descp2":      "J\'ai conçu et développé mon propre site web personnel pour présenter mon CV, mes compétences et mes réalisations. Le site comprend également un blog où je partage mes connaissances et mes expériences.",
+"projet3":"Application de gestion de projet",
+    "descp3":      "J\'ai contribué au développement d\'une application web de gestion de projet qui permet aux utilisateurs de créer des projets, d\'assigner des tâches, de suivre les progrès et de collaborer en équipe.",
+"projet4":"Application de chat en ligne",
+    "descp4":      "J\'ai développé une application de chat en ligne qui permet aux utilisateurs de communiquer en temps réel, de créer des salons de discussion et d\'envoyer des messages multimédias.",
+"projet5":"Application de suivi des dépenses",
+    "descp5":      "J\'ai créé une application mobile qui aide les utilisateurs à suivre leurs dépenses quotidiennes, à définir des budgets et à visualiser leurs habitudes de dépenses sous forme de graphiques.",
+
+    "N1":"Projets",
+  "vie":"Vie Associative",
+  "T1":"JCI",
+  "duree":"2021-present",
+  "text1":"Jeune Chambre Internationale",
+  "occupation": "Participation aux campagnes de sensibilisation et de collecte de dons pour les personnes dans le besoin.",
+
+  "T2": "Hilal Ahmar Tunisia",
+  "duree2":"2020-present",
+  "text2": "Croissant-Rouge Tunisie",
+  "occupation2": "Responsable des événements communautaires et de collecte de fonds,Organisateur principal du projet qui a collecté XX fonds pour éducation des enfants défavorisés.",
+
+
+    "Certif":"Azure Fundamentals AZ 9000",
+    "Institution": "Microsoft",
+    "Certif1":"ISTQB Certifier TESTER",
+    "Institution1": "International Software Testing Qualifications Board",
+    "Certif2":"CCNA 1 & 2",
+    "Institution2": "CISCO Certifications",
+"contact":"Contactez-nous"
+},
+  "en_US":{
+"name":'Damodar Lohani' ,
+"langue":'English',
+"metier":"Full Stack Developer",
+"titre2":"Experience",
+"experience":"5+ years of experience in software development with expertise in frontend and backend technologies.",
+
+"titre3":"Projects",
+"projets":"Led multiple projects from conception to delivery, ensuring high-quality code and user-friendly interfaces.",
+    "About Me":"About Me",
+"description2":"Over 8+ years of experience and web development and 5+ years of experience in mobile applications development ",
+"Skills":"Skills",
+    "Educ1":"Mahmoud Magdich School, Sfax",
+    "descrip1":"B.Sc. Computer Science and Information Technology",
+    "Educ2":"International Institute of Technology Sfax Tunisia: IIT, University",
+    "descrip2":"Genie Business Intelligence Software, GLID",
+    "Educ3":"National School of Electronics and Telecommunications of Sfax, ENETCOM",
+    "descrip3":"Professional Master in Computer and Telecommunications Systems Engineering, RITEL",
+    "Exp1": "Full Stack Developer, Company: ABC Technologies",
+    "des1":"Development and maintenance of web and mobile applications, with particular expertise in frontend and backend technologies",
+    "Exp2":"Senior Software Engineer, Company: XYZ Solutions",
+    "des2":" Design and development of highly scalable software for the company's customers. Supervision of a team of junior developers and close collaboration with product management teams.",
+    "Exp3":"Frontend Developer, Company: Acme Web Services",
+    "des3":"Creating attractive and responsive user interfaces for various web applications. Close integration with design teams to ensure optimal user experience.",
+    "Exp4":"Developer Intern, Company: Tech Innovations",
+    "des4":" Learn the basics of software development by participating in real projects. Acquire practical skills in programming and software design.",
+  "projet1":"Fitness tracking application",
+  "descp1": "I designed and developed a mobile app that allows users to track their workouts, calories burned, and progress over time. The app also includes exercise planning and reminder features.",
+  "projet2":"Personal website",
+  "descp2": "I designed and developed my own personal website to showcase my CV, skills and achievements. The site also includes a blog where I share my knowledge and experiences.",
+  "projet3":"Project management application",
+  "descp3": "I helped develop a project management web application that allows users to create projects, assign tasks, track progress, and collaborate in teams.",
+  "projet4":"Online chat application",
+  "descp4": "I developed an online chat application that allows users to communicate in real time, create chat rooms and send multimedia messages.",
+    "N1":"Project",
+    "contact":"Contact us",
+    "projet5":"Expense tracking application",
+    "descp5": "I created a mobile app that helps users track their daily expenses, set budgets, and visualize their spending habits in graphs.",
+  "vie":"Associative Life",
+  "T1":"JCI",
+  "duree":"2021-present",
+  "text1":"Junior Chamber International",
+  "occupation": "Participation in awareness campaigns and fundraising for people in need.",
+
+  "T2": "Hilal Ahmar Tunisia",
+  "duree2":"2020-present",
+  "text2": "Tunisia Red Crescent",
+  "occupation2": "Community Events and Fundraising Manager, Lead organizer of project which raised XX funds for education of underprivileged children.",
+  }
+
+
+  };
+
+}
